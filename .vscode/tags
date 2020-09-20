@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+URL	../main.py	/^URL = "https:\/\/gitmoji.carloscuesta.me\/"$/;"	kind:variable	line:7
+a	../main.py	/^a = "hello"$/;"	kind:variable	line:1
+codes_xpath	../main.py	/^codes_xpath = "\/\/div[@class='emoji-card']\/div[@class='emoji-info']\/div[@class='gitmoji-code'/;"	kind:variable	line:16
+data	../main.py	/^data = [{ 'icon': emojis[x].strip(), 'code': emojis[x+1].strip(), 'desc': emojis[x+2].strip()} f/;"	kind:variable	line:22
+desc_xpath	../main.py	/^desc_xpath = "\/\/div[@class='emoji-card']\/div[@class='emoji-info']\/p\/text()"$/;"	kind:variable	line:17
+emojis	../main.py	/^emojis = root.xpath(f"{icons_xpath} | {codes_xpath} | {desc_xpath} ")$/;"	kind:variable	line:20
+icons_xpath	../main.py	/^icons_xpath = "\/\/div[@class='emoji-card']\/header\/span\/text()"$/;"	kind:variable	line:15
+main.py	../main.py	1;"	kind:file	line:1
+resp	../main.py	/^resp = requests.get(URL)$/;"	kind:variable	line:9
+root	../main.py	/^root = html.fromstring(resp.text)$/;"	kind:variable	line:13
+wc_rjust	../main.py	/^def wc_rjust(text, length, padding=' '):$/;"	kind:function	line:24
